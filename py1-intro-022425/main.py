@@ -86,8 +86,8 @@
 
 
 
-# from main import giaic
+from module import giaic
 
-# giaic();
+giaic();
 
 # print('Hello World!')        # print() this is function

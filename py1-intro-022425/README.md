@@ -2,7 +2,7 @@ Internal working of Python
 
 douwnload python on google
 
-python --v , py --version , py --v
+Python --version , Py --version , py --v
 
 create file with the extension of .py
 
