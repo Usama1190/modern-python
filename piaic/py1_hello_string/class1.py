@@ -20,7 +20,7 @@
 # print(id(name))  # physical address
 
 
-# name = 'Usama Isra'
+# name = 'Usama Israr'
 # print(name)
 # print(type(name))
 # print(id(name))
