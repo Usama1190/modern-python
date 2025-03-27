@@ -40,21 +40,24 @@ John
 
 Code is executed and the result is your name
 
+Then you can call the exit function
+
+>>>exit()
+
+Now you are in the normal terminal
+
+(base) C:\Users>
+
+(base) C:\Users>d:           (move to the directory)
+
+(base) D:\>mkdir PIAIC       (create new folder)
+
+(base) D:\PIAIC>code .       (open vs code)
 
 
 
 
 
-
-
-
-exit()
-
-d: (goto d drive)
-
-dir GI
-
-cd GI
 
 code .
 
