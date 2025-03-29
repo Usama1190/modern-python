@@ -1,4 +1,4 @@
-# Pyhon (interpreted language)
+# Python (interpreted language)
 
 Except install dependencies, packages, environment paths, or ides
 
