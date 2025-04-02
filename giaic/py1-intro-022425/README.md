@@ -114,7 +114,7 @@ Python interpreted dynamic language
 types
 
 str     => string text
-int     =>integers numbers
+int     => integers numbers
 float   => decimal numbers with point
 bool    => boolean true or false
 list    => list array mutable
