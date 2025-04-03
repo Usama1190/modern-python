@@ -1,15 +1,12 @@
+#_
 
+name: str = 'usama'
+print('name')
 
+#_
 
+print(name)      # error occurced here because name is undefined
 
+#_
 
-
-# name: str = 'usama israr'
-# print(name)
-
-
-# print(name)
-
-
-# name: str = 'usama'
-# print('name')
+print("name")    # name print successfully
