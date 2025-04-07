@@ -16,7 +16,7 @@ JavaScript => interpreted language (dynamic language)
 
 Python => dynamic language (interpreter)
 
-JavaScript and Python are not compile langauge
+Both JavaScript and Python are not compile langauge
 
 TypeScript is a superset of JavaScript and mojo(new) is a superset of python
 
@@ -40,34 +40,44 @@ Anaconda is a distributor
 
 ### Install Anaconda
 
-https://anaconda/downloads
+Click <a href='https://anaconda/downloads' target='_blank'>here</a> to download anaconda.
 
 ### Google Colab (explore)
 
-https://google-colab 
+Click <a href='https://google-colab' target='_blank'>here</a> to explore google colab.
 
 Google colab provide cloud computing
 
+### Back to the topic
+
 After installaion open Anaconda prompt (black)
+
+### Command line interface of Anaconda prompt
 
 Then look at this like,
 
+```
 (base) C:/Users>_
+```
 
 This is base environment where all packages, and something like this installed
 
 Type python --version or Python --version or py --version (for checking version of python)
 
+```
 (base) C:/Users>python --version
 Python 3.12.7
+```
 
 This is the answer of current version of python (3.12.7)
 
 Then write python
 
+```
 (base) C:/Users>python
 some information and three greater than symbols
 >>>
+```
 
 This symbols represents acitvate the python interpreter
 
@@ -75,17 +85,22 @@ Interpreter means line by line code execute
 
 Now you can write the print keyword and round brackets () inside this write double quotation and your name see,
 
+```
 >>>print("John")
 John
+```
 
 Code is executed and the result is your name
 
 Then you can call the exit function
 
+```
 >>>exit()
+```
 
 Now you are in the normal terminal
 
+```
 (base) C:\Users>
 
 (base) C:\Users>d:           (move to the directory)
@@ -95,12 +110,15 @@ Now you are in the normal terminal
 (base) D:\>cd PIAIC          (move to the new folder)
 
 (base) D:\PIAIC>code .       (open vs code)
+```
 
 then create a file like main.py inside this write some code
 
 open anaconda terminal move on to the same directory and run this command
 
+```
 (base) D:\PIAIC>python main.py
+```
 
 keyword python and file name with extension
 
