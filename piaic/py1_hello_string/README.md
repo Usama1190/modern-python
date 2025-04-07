@@ -214,7 +214,23 @@ To installation of packages in virtual environment write command pip install -r 
 ```
 After installation
 
-Setup enviroment in vs code.
+### Selecting the environment in vs code
+
+1. Open class1.py in VS Code.
+
+2. Select your virtual environment as shown below:
+
+<img src='./Screenshot 2023-10-16 at 10.34.08 PM.png' alt='environment image' />
+
+### Selecting the Environment in Jupyter Notebook
+
+1. Open class1.ipynb in Jupyter Notebook.
+
+2. Select your virtual environment as shown below:
+
+<img src='./image-1.png' alt='environment image' />
+
+<img src='./image-2.png' alt='environment image' />
 
 mypy is very improtant package
 
@@ -251,8 +267,68 @@ print("Hello world")
 * install python extension
 * click on run button
 
+Now let's talk about string
+
+## String (str)
+
+String more powerfull feature
+
+mypy most important package
+
 In python static type introduce
 
 In particular variable store particular type
 
-mypy class1.py (check errors in file)
+name = "Usama Israr Khan" (old way)
+
+### Static Type
+
+name: str = "Usama Israr Khan" (new or advance way)
+
+Check type errors in file write command mypy file name
+
+```
+(python12) D:\PIAIC>mypy class1.py
+```
+
+## Integers (int)
+
+```
+num: int = 700
+```
+
+## Float (float)
+
+```
+num: float = 7.0
+```
+
+## Boolean (bool)
+
+```
+flag: bool = True
+```
+
+## List (list)
+
+```
+my_list: list[str] = ['a', 'b', 'c']
+```
+
+## Tuple (tuple)
+
+```
+my_tuple: tuple[str, int, float] = ('pakistan', 7, 2.0)
+```
+
+## Tuple (tuple)
+
+```
+my_tuple: tuple[str, int, float] = ('pakistan', 7, 2.0)
+```
+
+## Any (any)
+
+```
+my_variable: any = 'Pakistan'
+```
