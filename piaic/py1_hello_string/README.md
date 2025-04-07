@@ -1,6 +1,42 @@
+Next two weeks we learn python or data science or data analytics
+
+Today we start with 0(zero) learn python
+
+Python 3.12 => Modern Python (Typing + latest improvements)
+
+Start with hello world
+
+### Remember
+
+TypeScript => transpile language (transpile into JavaScript)
+
+TypeScript is a superset of JavaScript
+
+JavaScript => interpreted language (dynamic language)
+
+Python => dynamic language (interpreter)
+
+JavaScript and Python are not compile langauge
+
+TypeScript is a superset of JavaScript and mojo(new) is a superset of python
+
+mojo add additional things in python and also compile
+
+(mojo)1000 times faster then python (see in the end)
+
+cpython(new) => compile language (talk in the next)
+
+first of all we start moodern python(interpreted language)
+
 # Python (interpreted language)
 
-Except install dependencies, packages, environment paths, or ides
+python => interpreted language (interpreted, compiler, transpiler)
+
+Except install dependencies, packages, environment paths, or ides (integrade development environment)
+
+## Anaconda
+
+Anaconda is a distributor
 
 ### Install Anaconda
 
@@ -10,6 +46,8 @@ https://anaconda/downloads
 
 https://google-colab 
 
+Google colab provide cloud computing
+
 After installaion open Anaconda prompt (black)
 
 Then look at this like,
@@ -18,7 +56,7 @@ Then look at this like,
 
 This is base environment where all packages, and something like this installed
 
-Type python -version (for checking version of python)
+Type python --version or Python --version or py --version (for checking version of python)
 
 (base) C:/Users>python --version
 Python 3.12.7
@@ -32,6 +70,8 @@ some information and three greater than symbols
 >>>
 
 This symbols represents acitvate the python interpreter
+
+Interpreter means line by line code execute
 
 Now you can write the print keyword and round brackets () inside this write double quotation and your name see,
 
@@ -64,7 +104,7 @@ open anaconda terminal move on to the same directory and run this command
 
 keyword python and file name with extension
 
-Jupyter notebook 
+## Jupyter Notebook
 
 extension of jupyter notebook is .ipynb
 
@@ -97,12 +137,12 @@ pep8 naming convention
 
 google collab
 
-# Installation
+### Installation
 
 * Anaconda
 * vs code
 
-# Hello world
+### Hello world
 * windows -> Anaconda prompt -> python
 
 ```
