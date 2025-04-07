@@ -1,6 +1,6 @@
 Next two weeks we learn python or data science or data analytics
 
-Today we start with 0(zero) learn python
+Today we start from 0(zero) learn python
 
 Python 3.12 => Modern Python (Typing + latest improvements)
 
@@ -8,25 +8,25 @@ Start with hello world
 
 ### Remember
 
-* TypeScript => transpile language (transpile into JavaScript)
+TypeScript => transpile language (transpile into JavaScript)
 
-* TypeScript is a superset of JavaScript
+TypeScript is a superset of JavaScript
 
-* JavaScript => interpreted language (dynamic language)
+JavaScript => interpreted language (dynamic language)
 
-* Python => dynamic language (interpreter)
+Python => dynamic language (interpreter)
 
-* Both JavaScript and Python are not compile langauge
+Both JavaScript and Python are not compile langauge
 
-* TypeScript is a superset of JavaScript and mojo(new) is a superset of python
+TypeScript is a superset of JavaScript and mojo(new) is a superset of python
 
-* mojo add additional things in python and also compile
+mojo add additional things in python and also compile
 
-* (mojo)1000 times faster then python (see in the end)
+(mojo)1000 times faster then python (see in the end)
 
-* cpython(new) => compile language (talk in the next)
+cpython(new) => compile language (talk in the next)
 
-first of all we start moodern python(interpreted language)
+First of all we start moodern python(interpreted language)
 
 # Python (interpreted language)
 
@@ -40,7 +40,7 @@ Anaconda is a distributor
 
 ### Install Anaconda
 
-Click <a href='https://anaconda/downloads' target='_blank'>here</a> for download anaconda.
+Click <a href='https://anaconda/downloads' target='_blank'>here</a> to redirect the download page of anaconda.
 
 ### Google Colab (explore)
 
@@ -54,24 +54,24 @@ After installaion open Anaconda prompt (black)
 
 ### Command line interface of Anaconda prompt
 
-Then look at this like,
+Then look at this,
 
 ```
 (base) C:/Users>_
 ```
 
-This is base environment where all packages, and something like this installed
+This is base environment where all packages, and something like this installed.
 
-Type python --version or Python --version or py --version (for checking version of python)
+Type python --version or Python --version or py --version (for checking version of python).
 
 ```
 (base) C:/Users>python --version
 Python 3.12.7
 ```
 
-This is the answer of current version of python (3.12.7)
+This is the answer of current version of python (3.12.7).
 
-Then write python
+Then write python,
 
 ```
 (base) C:/Users>python
@@ -79,9 +79,9 @@ some information and three greater than symbols
 >>>
 ```
 
-This symbols represents acitvate the python interpreter
+This symbols represents acitvate the python interpreter.
 
-Interpreter means line by line code execute
+Interpreter means line by line code execute.
 
 Now you can write the print keyword and round brackets () inside this write double quotation and your name see,
 
@@ -90,15 +90,15 @@ Now you can write the print keyword and round brackets () inside this write doub
 John
 ```
 
-Code is executed and the result is your name
+Code is executed and the result is your name.
 
-Then you can call the exit function
+Then you can call the exit function,
 
 ```
 >>>exit()
 ```
 
-Now you are in the normal terminal
+Now you are in the normal terminal,
 
 ```
 (base) C:\Users>
@@ -152,13 +152,13 @@ Advance feature of jupyter notebook is execute your code in chunks
 
 ### Naming convension in Python
 
-* pep8 naming convention see <a href='https://peps.python.org/pep-0008/' target='_blank'>here</a>
+pep8 naming convention see <a href='https://peps.python.org/pep-0008/' target='_blank'>here</a>
 
 ### Google Colab
 
-1. Move to the google colab <a href='https://google-colab' target='_blank'>click here</a> (cloud computing)
+Move to the google colab <a href='https://google-colab' target='_blank'>click here</a> (cloud computing)
 
-2. write and execute some code to the powerfull processor
+write and execute some code to the powerfull processor
 
 ### IDE's (Integrate Development Environment)
 
@@ -170,11 +170,11 @@ Jupyter notebook default interface for working data science project.
 
 ## Environment or Virtual environment in Python
 
-* environment or virtual environment
+environment or virtual environment
 
-* base environment (by default)
+base environment (by default)
 
-* create virtual environment
+create virtual environment
 
 ### Open Anaconda Prompt
 
@@ -216,9 +216,9 @@ After installation
 
 ### Selecting the environment in vs code
 
-1. Open class1.py in VS Code.
+Open class1.py in VS Code.
 
-2. Select your virtual environment as shown below:
+Select your virtual environment as shown below:
 
 <img src='./image-2.png' alt='environment image' />
 
@@ -226,9 +226,9 @@ After installation
 
 ### Selecting the Environment in Jupyter Notebook
 
-1. Open class1.ipynb in Jupyter Notebook.
+Open class1.ipynb in Jupyter Notebook.
 
-2. Select your virtual environment as shown below:
+Select your virtual environment as shown below:
 
 <img src='./Screenshot 2023-10-16 at 10.34.08 PM.png' alt='environment image' />
 
@@ -250,24 +250,27 @@ All files are listed
 
 ### Installation
 
-* Anaconda
-* vs code
+Anaconda
+
+vs code
 
 ### Hello world
 
-* windows -> Anaconda prompt -> python
+windows -> Anaconda prompt -> python
 
 ```
 print("Hello world")
 ```
 
-* open VScode -> `class1.py`
+open VScode -> `class1.py`
+
 ```
 print("Hello world")
 ```
 
-* install python extension
-* click on run button
+install python extension
+
+click on run button
 
 Now let's talk about string
 
@@ -281,7 +284,7 @@ In python static type introduce
 
 In particular variable store particular type
 
-* Old way
+Old way
 
 ```
 name = "Usama Israr Khan"
@@ -289,7 +292,7 @@ name = "Usama Israr Khan"
 
 ### Static Type
 
-* New or advance way
+New or advance way
 
 ```
 name: str = "Usama Israr Khan"
