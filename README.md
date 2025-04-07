@@ -1,9 +1,4 @@
-# Learn Modren Python
+# Learn Advanced Python to Create Custom GPT and AI Agents Development
 
-See what's new in <a href="https://www.python.org/" target='_blank'>Python</a>
+Python Official Documentation <a href="https://www.python.org/" target='_blank'>here</a>
 
-```
-* Setup
-* Intro
-* types
-* loops
