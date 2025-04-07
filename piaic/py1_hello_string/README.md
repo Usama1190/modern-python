@@ -8,23 +8,23 @@ Start with hello world
 
 ### Remember
 
-TypeScript => transpile language (transpile into JavaScript)
+* TypeScript => transpile language (transpile into JavaScript)
 
-TypeScript is a superset of JavaScript
+* TypeScript is a superset of JavaScript
 
-JavaScript => interpreted language (dynamic language)
+* JavaScript => interpreted language (dynamic language)
 
-Python => dynamic language (interpreter)
+* Python => dynamic language (interpreter)
 
-Both JavaScript and Python are not compile langauge
+* Both JavaScript and Python are not compile langauge
 
-TypeScript is a superset of JavaScript and mojo(new) is a superset of python
+* TypeScript is a superset of JavaScript and mojo(new) is a superset of python
 
-mojo add additional things in python and also compile
+* mojo add additional things in python and also compile
 
-(mojo)1000 times faster then python (see in the end)
+* (mojo)1000 times faster then python (see in the end)
 
-cpython(new) => compile language (talk in the next)
+* cpython(new) => compile language (talk in the next)
 
 first of all we start moodern python(interpreted language)
 
@@ -40,7 +40,7 @@ Anaconda is a distributor
 
 ### Install Anaconda
 
-Click <a href='https://anaconda/downloads' target='_blank'>here</a> to download anaconda page.
+Click <a href='https://anaconda/downloads' target='_blank'>here</a> for download anaconda.
 
 ### Google Colab (explore)
 
@@ -152,13 +152,13 @@ Advance feature of jupyter notebook is execute your code in chunks
 
 ### Naming convension in Python
 
-pep8 naming convention see <a href='https://peps.python.org/pep-0008/' target='_blank'>here</a>
+* pep8 naming convention see <a href='https://peps.python.org/pep-0008/' target='_blank'>here</a>
 
 ### Google Colab
 
-Move to the google colab <a href='https://google-colab' target='_blank'>click here</a> (cloud computing)
+1. Move to the google colab <a href='https://google-colab' target='_blank'>click here</a> (cloud computing)
 
-write and execute some code to the powerfull processor
+2. write and execute some code to the powerfull processor
 
 ### IDE's (Integrate Development Environment)
 
@@ -170,11 +170,11 @@ Jupyter notebook default interface for working data science project.
 
 ## Environment or Virtual environment in Python
 
-environment or virtual environment
+* environment or virtual environment
 
-base environment (by default)
+* base environment (by default)
 
-create virtual environment
+* create virtual environment
 
 ### Open Anaconda Prompt
 
@@ -220,7 +220,9 @@ After installation
 
 2. Select your virtual environment as shown below:
 
-<img src='./Screenshot 2023-10-16 at 10.34.08 PM.png' alt='environment image' />
+<img src='./image-2.png' alt='environment image' />
+
+<img src='./image-1.png' alt='environment image' />
 
 ### Selecting the Environment in Jupyter Notebook
 
@@ -228,9 +230,9 @@ After installation
 
 2. Select your virtual environment as shown below:
 
-<img src='./image-1.png' alt='environment image' />
+<img src='./Screenshot 2023-10-16 at 10.34.08 PM.png' alt='environment image' />
 
-<img src='./image-2.png' alt='environment image' />
+<img src='./image-1.png' alt='environment image' />
 
 mypy is very improtant package
 
@@ -279,11 +281,19 @@ In python static type introduce
 
 In particular variable store particular type
 
-name = "Usama Israr Khan" (old way)
+* Old way
+
+```
+name = "Usama Israr Khan"
+```
 
 ### Static Type
 
-name: str = "Usama Israr Khan" (new or advance way)
+* New or advance way
+
+```
+name: str = "Usama Israr Khan"
+```
 
 Check type errors in file write command mypy file name
 
@@ -313,12 +323,6 @@ flag: bool = True
 
 ```
 my_list: list[str] = ['a', 'b', 'c']
-```
-
-## Tuple (tuple)
-
-```
-my_tuple: tuple[str, int, float] = ('pakistan', 7, 2.0)
 ```
 
 ## Tuple (tuple)
