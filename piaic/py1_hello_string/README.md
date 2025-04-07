@@ -102,14 +102,30 @@ Now you are in the normal terminal
 
 ```
 (base) C:\Users>
+```
 
-(base) C:\Users>d:           (move to the directory)
+Move to the directory.
 
-(base) D:\>mkdir PIAIC       (create new folder)
+```
+(base) C:\Users>d:
+```  
 
-(base) D:\>cd PIAIC          (move to the new folder)
+Create new folder.
 
-(base) D:\PIAIC>code .       (open vs code)
+```
+(base) D:\>mkdir PIAIC       
+```
+
+Move to the new folder.
+
+```
+(base) D:\>cd PIAIC
+```
+
+Open vs code.
+
+```
+(base) D:\PIAIC>code .       
 ```
 
 then create a file like main.py inside this write some code
@@ -216,12 +232,12 @@ All files are listed
 
 ### Installation
 
-*Anaconda
-*vs code
+* Anaconda
+* vs code
 
 ### Hello world
 
-*windows -> Anaconda prompt -> python
+* windows -> Anaconda prompt -> python
 
 ```
 print("Hello world")
