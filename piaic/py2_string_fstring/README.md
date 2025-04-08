@@ -40,13 +40,5 @@ how many ways to defined string.
 
 string or fstring
 
-
-
-
-
-
-
-
-
-
+home work chapter 3, 4 and 5
 
