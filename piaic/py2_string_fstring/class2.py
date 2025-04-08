@@ -1,5 +1,3 @@
-#_
-
 name: str = 'usama'
 print('name')
 

@@ -155,4 +155,4 @@ Use UPPER_SNAKE_CASE for constants.
 ```
 PI: float = 3.14159
 ```
-home work chapter 3, 4 and 5
+home work chapter 3, 4 and 5 (for learn)
