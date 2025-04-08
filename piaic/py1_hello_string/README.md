@@ -28,6 +28,12 @@ cpython(new) => compile language (talk in the next)
 
 First of all we start moodern python(interpreted language)
 
+### Table of Contents
+
+* Running a "Hello World" Program
+
+* Setting Up a Virtual Environment
+
 # Python (interpreted language)
 
 python => interpreted language (interpreted, compiler, transpiler)
