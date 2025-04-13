@@ -28,7 +28,7 @@ Zen of Python
 
 ### Python Operators
 
-<img src='./Whiteboard[1]-01.png' alt='Whiteboard image' />
+<img src="./Whiteboard[1]-01.png" alt="Whiteboard image" />
 
 Python supports a variety of operators, which can be categorized as:
 
@@ -40,7 +40,7 @@ Python supports a variety of operators, which can be categorized as:
 / : Division
 % : Modulus
 
-<img src='./Whiteboard[2]-01.png' alt='Whiteboard image' />
+<img src="./Whiteboard[2]-01.png" alt="Whiteboard image" />
 
 **: Exponentiation
 //: Floor division
