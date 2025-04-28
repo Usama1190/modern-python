@@ -1,9 +1,9 @@
 ## Python MCQ's
 
-### Python (Istall + Intro)
+### Topic : Istallation + Introduction
 
 <details>
-  <summary>Basic</summary>
+  <summary>Basic level</summary>
 
   <!-- Scrollable area -->
   <div style="max-height:200px; overflow:auto; border:1px solid #ccc; padding:10px;">
@@ -145,7 +145,7 @@
   ```
 
   ```
-  Python is a **\_** language.
+  Python is a ______ language.
   a) Compiled
   b) Interpreted
   c) Markup
@@ -169,3 +169,4 @@
   ```
   </div>
 </details>
+
