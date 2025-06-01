@@ -1,20 +1,29 @@
-from typing import Union, Optional
+from typing import Union
+PerType = Union[float, int]
 
-def greet(name: Optional[str] = None) -> str:
-    if name == None:
-        return "Hello Guest"
-    else:
-        return f"Hello, {name}"
+percentages : list[PerType] = [88, 99.9, 50, 51,65,70]
 
-age: Union[int, str] = "Twenty"
+grades : list[str] = []
 
-print(greet())
-print(greet("Osama"))
+for per in percentages:
+    grade : str = ""
 
-names: list[str] = ["Alice", "Bob", "Charlie"]
-ages: list[int] = [25, 35, 30]
+    if (per >= 0) and (per < 33):
+        grade = "Fail"
+    elif (per >= 33) and (per < 40):
+        grade = "E"
+    elif (per >= 40) and (per < 50):
+        grade = "D"
+    elif (per >= 50) and (per < 60):
+        grade = "C"
+    elif (per >= 60) and (per <70) :
+        grade = "B"
+    elif (per >= 70) and (per <80) :
+        grade = "A"
+    elif (per >=80) and (per <= 100):
+        grade = "A+"
 
-zipped = zip(names, ages)
+    grades.append(grade)
 
-for name, age in zipped:
-    print(f"{name} is {age} year old.")
+print(percentages)
+print(grade)
