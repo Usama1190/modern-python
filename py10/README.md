@@ -28,6 +28,18 @@ Anonymous functions can be defined on-the-fly using the `lambda` keyword.
 
 By understanding and utilizing these different aspects of Python functions, developer can write cleaner, more efficient, and more maintainable code.
 
+#### Recursive Functions
+
+Functions can solve themselves to solve problems in a recursive manners.
+
+#### Decorators
+
+Functions can be wrapped by other functions to extend their behaviour without modifying their code
+
+#### Functions with Unlimited Arguments
+
+Functions can be designed to accept an arbitrary number of arguments, either as positional arguments or keyword arguments.
+
 ### Table of Content
 
 1. Pre-defined functions
@@ -36,6 +48,9 @@ By understanding and utilizing these different aspects of Python functions, deve
 4. Default functions.
 5. Optional, positional, and keyword arguments
 6. Lambda functions
+7. Recursive functions
+8. Decorators
+9. Functions with Unlimited Arguments
 
 ### Pre-defined functions
 
@@ -128,4 +143,65 @@ Lambda functions are anonymous functions defined using the `lambda` keyword.
 square: callable = lambda x : x * x
 
 print(square(3))      # output: 9
+```
+
+### Recursive functions
+
+A recursive function is a function that calls itself.
+
+```
+def factorial(n: int) -> int:
+    if n == 0:
+        return 1
+    else:
+        return n * factorail(n - 1)
+
+result: int = factorail(5)
+
+print(result)   # 120
+```
+
+### Decorators
+
+Decorators are a way to modify or extend the behaviour of a function.
+
+```
+def my_decorator(func: Callable) -> callable:
+    def wrapper(*args, **kargs) -> None:
+        print("something is heppening before the function is called")
+        func(*args, **kargs)
+        print("something is heppening after the function is called")
+
+    wrapper()
+
+@my_decorator
+def say_hello(name: str) -> None:
+    print(f"Hello, {name}")
+
+say_hello('Usama')   # output : before func Hello, Usama after func
+```
+
+### Functions with Unlimited Arguments
+
+You can define functions that accept an arbitrary number of arguments.
+
+#### Unlimited Positional Arguments
+
+```
+def add(*numbers: int) -> int:
+    return sun(numbers)
+
+result: int = add(1, 2, 3, 4, 5)
+
+print(result)   # output: 15
+```
+
+#### Unlimited Keywords Arguments
+
+```
+def print_key_values(**kargs: int) -> None:
+    for key, value in kargs.items():
+        print(f"{key}: {value}")
+
+print_key_values("name": "John", "age": 26, "country": "usa")
 ```
