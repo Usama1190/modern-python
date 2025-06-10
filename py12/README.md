@@ -163,7 +163,60 @@ with open('file.txt', 'rb') as f:
 ```
 
 ## Reading files
+
 ### Reading CSV files
+
+You can use the `csv` module to read CSV files.
+
+```
+import csv
+
+with open('file.csv', 'r') as f:
+    reader = csv.reader(f)
+
+    for row in reader:
+        print(row)
+```
+
 ### Reading PDF files
+
+You can use the `PyPDF2` library to read PDF files.
+
+```
+import PyPDF2
+
+with open('file.pdf', 'rb') as f:
+    reader = PyPDF.PdfFileReader(f)
+    text = reader.getPage(0).extractText()
+    print(text)
+```
+
 ### Reading Excel files
+
+You can use the `openpyxl` library to read Excel file.
+
+```
+import openpyxl
+
+wb = openpyxl.load_workbook('file.xlsx')
+sheet = wb.active
+cell = sheet['A1']
+print(cell.value)
+```
+
 ### Reading audio files
+
+You can use the `pydub` library to read audio files.
+
+```
+from pydub import AudioSegment
+
+audio = AudioSegment.from_file('file.mp3')
+
+print("Channels:", audio.channels)
+print("Sample Width:", audio.sample_width)
+print("Frame Rate:", audio.frame_rate)
+print("Frame Width:", audio.frame_width)
+print("Length (ms):", len(audio))
+print("Frame Count:", audio.frame_count)
+```
