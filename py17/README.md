@@ -1,0 +1,1 @@
+Python project that demonstrates the usage of static types with `pandas` and includes a fictional library `pander` which is assumed to be related to the project. Since you mentioned 'pander' which is not a known common library
